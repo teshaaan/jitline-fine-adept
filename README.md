@@ -20,6 +20,21 @@ jitline-study/
 
 ## Setup
 
+Conda is the recommended setup for this project:
+
+```bash
+conda env create -f environment.yml
+conda activate jitline-fine-adept
+```
+
+If the environment already exists, update it with:
+
+```bash
+conda env update -f environment.yml --prune
+```
+
+You can also use a standard virtual environment:
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
