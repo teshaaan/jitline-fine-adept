@@ -1,0 +1,23 @@
+name: JITLine
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9.1
+  - numpy=1.19.5
+  - matplotlib=3.3.4
+  - dill=0.3.3
+  - gitpython=3.1.14
+  - scikit-learn=0.24.1
+  - pip
+  - scipy=1.6.1
+  - notebook=6.2.0
+  - ipykernel=5.5.0
+  - jupyterlab=3.0.9
+  - lime=0.2.0.1
+  - imbalanced-learn=0.8.0
+  - pandas=1.2.2
+  - pip:
+      - lizard==1.17.7
+      - pydriller==1.15.5
+      - smmap==3.0.5
